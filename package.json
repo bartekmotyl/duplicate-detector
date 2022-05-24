@@ -1,0 +1,23 @@
+{
+  "name": "duplicate-detector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "moveDuplicates": "node js/moveDuplicates.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "eslint": "^8.13.0",
+    "typescript": "^4.6.3"    
+  },
+  "dependencies": {
+    "@types/es6-promise": "^3.3.0",
+    "rxjs": "^7.5.5"
+  }  
+}

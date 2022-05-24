@@ -1,0 +1,11 @@
+{
+    "existing": {
+        "filePath": "existing-hashes.txt",
+        "basePath": "/mnt/md0"
+    }, 
+    "incoming": {
+        "filePath": "incoming-hashes.txt",
+        "basePath": "/media/big1"
+    },
+    "pattern": "mv \"{basePath}{localFilePath}\" \"/trash{localFilePath}\""
+}
