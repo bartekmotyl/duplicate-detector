@@ -15,7 +15,7 @@ hashdeep -r -e /path/to/folder >hashes.txt
 ## moveDuplicates
 
 ### Use case 
-You have some files already in the archive and some new files to be put to the archive. But before copying them you would like to make sure that you are copying duplicates. 
+You have some files already in the archive and some new files to be put to the archive. But before copying them you would like to make sure that you are not copying duplicates. 
 All duplicates should be at first removed from new files (before copying). 
 
 ### Input 
