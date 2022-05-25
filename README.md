@@ -10,12 +10,22 @@ The toolset works with hash files i.e. output of `hashdeep` in a folder. By anal
 
 ## moveDuplicates
 
-Input: 
+### Input 
 - list of hashes in folder 1 (aka *existing*)
 - list of hashes in folder 2 (aka *incoming*)
 - command pattern 
 
-Input: 
+### Output: 
 - list of commands (based on pattern evaluated for a single file) for every file in *incoming* that has been detected as duplicate (already existing in *existing*)
 
 For example, the command may be `rm` or `mv`  
+
+### Usage
+
+At first make sure the project is compiled - `npm run build`. 
+Then (in a temporary directory) preapre `moveDuplicates.config.json` file (sample can be found in `configs/moveDuplicates.config.example.json`.
+Then run the following `node` command: 
+
+```
+node /path/to/duplicate-detector/js/moveDuplicates.js >commands.sh
+```
