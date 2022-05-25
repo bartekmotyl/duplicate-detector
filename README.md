@@ -1,4 +1,4 @@
-# Problem statement
+# Problem of duplicated media files
 
 Most of us have many devices that can take photos or record videos (cameras, smartphones, drones, gopros etc.). 
 It become pretty challenging if one wants to have all these media files archived in organised way. 
