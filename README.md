@@ -8,7 +8,7 @@ This tool is focused on solving one particular problems that arise along the way
 The toolset works with hash files i.e. output of `hashdeep` in a folder. By analysing single (or multiple) hash files it is possible to effectively detect duplicates and do something with them. Particular tasks are realised by separate scripts. 
 
 
-## modeDuplicates
+## moveDuplicates
 
 Input: 
 - list of hashes in folder 1 (aka *existing*)
